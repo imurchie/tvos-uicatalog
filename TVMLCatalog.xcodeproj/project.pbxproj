@@ -698,7 +698,7 @@
 				TargetAttributes = {
 					65AE40781B8C3649006FB795 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -868,8 +868,7 @@
 				PRODUCT_NAME = TVMLCatalog;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
@@ -890,8 +889,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
