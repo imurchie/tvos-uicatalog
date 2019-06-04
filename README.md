@@ -20,7 +20,7 @@ When you are ready to add more advanced features to your application, open the c
 To start a local server run the following command in a terminal within the "Server" folder to create a simple webserver.
 
 ```
-ruby -run -ehttpd . -p9001
+npx gulp server:start
 ```
 
 - Open the TVMLCatalog.xcodeproj project in Xcode

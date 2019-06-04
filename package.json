@@ -1,0 +1,31 @@
+{
+  "name": "tvos-uicatalog",
+  "version": "0.0.1",
+  "description": "Basic tvOS sample app",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/imurchie/tvos-uicatalog.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+  },
+  "keywords": [
+    "Appium",
+    "tvos",
+    "tvml",
+    "apple"
+  ],
+  "author": "appium",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "appium-support": "^2.28.0",
+    "bluebird": "^3.5.5",
+    "static-server": "^2.2.1"
+  },
+  "devDependencies": {
+    "appium-gulp-plugins": "^4.1.0",
+    "gulp": "^4.0.2"
+  }
+}
