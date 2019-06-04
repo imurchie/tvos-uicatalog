@@ -1,10 +1,10 @@
 {
   "name": "tvos-uicatalog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic tvOS sample app",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/imurchie/tvos-uicatalog.git"
+    "type": "git",
+    "url": "https://github.com/imurchie/tvos-uicatalog.git"
   },
   "main": "build/index.js",
   "scripts": {
