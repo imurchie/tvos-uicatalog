@@ -10,6 +10,6 @@ boilerplate({
 });
 
 gulp.task('server:start', function () {
-  const { startServer } from './build';
+  const { startServer } = require('./build');
   return startServer();
 });
