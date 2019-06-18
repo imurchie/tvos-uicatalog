@@ -1,6 +1,7 @@
 import StaticServer from 'static-server';
 import B from 'bluebird';
 import { logger } from 'appium-support';
+import { relative, absolute } from './locations';
 
 
 const log = logger.getLogger('tvos-uicatalog');
@@ -27,5 +28,4 @@ async function stopServer () {
   server = undefined;
 }
 
-
-export { startServer, stopServer };
+export { startServer, stopServer, relative, absolute };
