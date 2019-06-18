@@ -32,5 +32,16 @@
   "devDependencies": {
     "ajv": "^6.5.3",
     "eslint-config-appium": "^4.0.1"
-  }
+  },
+  "files": [
+    "index.js",
+    "locations.js",
+    "gulpfile.js",
+    "build-js",
+    "Configuration",
+    "lib",
+    "Server",
+    "TVMLCatalog",
+    "TVMLCatalog.xcodeproj"
+  ]
 }
